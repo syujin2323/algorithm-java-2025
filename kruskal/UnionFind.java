@@ -25,7 +25,6 @@ public class UnionFind {
     }
     
     // i와 j가 같은 집합에 속하는지 검사
-    // 쿠르스칼 알고리즘 실행ㄱ ㅕㄹ고가입ㄴ다
     public boolean isConnected(int i, int j) {
         return find(i) == find(j);
     }
